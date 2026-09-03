@@ -2,6 +2,7 @@
     "name": "TwiceAbandoned",
     "version_number": "0.0.1",
     "website_url": "https://github.com/chytridi05/inscryption-twice-abandoned.git",
+    "description": "Add a new challenge Coward's Hand!",
     "dependencies":
     [
         "BepInEx-BepInExPack_Inscryption-5.4.2305",
