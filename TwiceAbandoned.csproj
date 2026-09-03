@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>TwiceAbandoned</AssemblyName>
+    <RootNamespace>TwiceAbandoned</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1701;1702;Publicizer001</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.19" />
+    <PackageReference Include="HarmonyX" Version="2.9.0" />
+    <PackageReference Include="Inscryption.GameLibs" Version="1.9.0-r.0" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.24" IncludeAssets="compile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="InscryptionAPI">
+      <HintPath>lib\InscryptionAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="InscryptionCommunityPatch">
+      <HintPath>lib\InscryptionCommunityPatch.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
